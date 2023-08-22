@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 tendências em Computação</title>
+    <style>
+        .box{
+            width: 200px;
+            border: 1px solid black;
+            background-color: rgb(195, 241, 195);
+        }
+        .positionAbsolute{
+            position:absolute;
+            top:250px;
+            left:200px; 
+            background-color:rgb(167, 192, 246);
+        }    
+     </style>
+</head>
+<body>
+    <form action="">
+        <br>
+            <label for="name">Nick:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input class="box" type="text" id="name" placeholder="Digite seu Nickname..." required>
+            
+            <label for="tel"><br>Telefone:&nbsp;&nbsp;&nbsp;</label>
+            <input class="box" type="tel" id="tel" placeholder="Digite seu Telefone..." required>
+            
+            <label for="mail"><br>E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input class="box" type="email" id="mail" placeholder="Digite seu E-mail..." required>
+
+        </div>
+
+                            <!-- input radio -->
+        <div>
+
+            <p>Qual o seu rank?</p>
+
+            <div>
+                <input type="radio" id="Bronze" name="assistindo">
+                <label for="Bronze">Bronze</label>
+            </div>
+            <div>
+                <input type="radio" id="Prata" name="assistindo">
+                <label for="Prata">Prata</label>
+            </div>
+            <div>
+                <input type="radio" id="Ouro" name="assistindo">
+                <label for="Ouro">Ouro</label>
+            </div>
+            <div>
+                <input type="radio" id="Diamante" name="assistindo">
+                <label for="Diamante">Diamante</label>
+            </div>
+        </div>
+                        <!-- Type select -->
+        <div>
+            <label for="curso">Selecione o seu curso:</label>
+            <select name="curso" id="curso" required>
+                <option selected disabled>Selecione...</option>
+                <option value="engenharia">Engenharia da Computação</option>
+                <option value="ciencia">Ciência da Computação</option>
+                <option value="analise">Análise e Desenvolvimento de Sistemas</option>
+            </select>
+        </div>
+
+        <button>Confirmar</button>
+    </form>
+</body>
+</html>
